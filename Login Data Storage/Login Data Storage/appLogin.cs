@@ -17,7 +17,6 @@ namespace Login_Data_Storage
         public appLogin(List<LoginClass> users)
         {
             InitializeComponent();
-            //isLoggedIn = userLogged;
             credentials = users;
         }
 
@@ -45,10 +44,25 @@ namespace Login_Data_Storage
                 isLoggedIn = true;
                 
             }
+            else
+            {
+                incorrectWarning wrongWarn = new incorrectWarning();
+                wrongWarn.ShowDialog();
+            }
             if (isLoggedIn)
             {
                 this.Close();
             }
+        }
+
+        private void userBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mainLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

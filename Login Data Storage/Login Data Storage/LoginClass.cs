@@ -1,10 +1,14 @@
-﻿namespace Login_Data_Storage
+﻿using System;
+using System.Collections.Generic;
+
+namespace Login_Data_Storage
 {
+    [Serializable]
     public class LoginClass
     {
         private string userApp;
         private string passApp;
-        public string name;
+        public string name { get; set; }
         Encoder encode = new Encoder();
 
         public LoginClass(string user, string pass)

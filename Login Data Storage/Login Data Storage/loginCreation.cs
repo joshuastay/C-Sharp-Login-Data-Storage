@@ -29,10 +29,21 @@ namespace Login_Data_Storage
             string tempUser = userBox.Text;
             string tempPass = passBox.Text;
 
-            newLogs.Add(new LoginClass(tempUser, tempPass));
-            
-            this.Close();
-            
+            if (string.IsNullOrWhiteSpace(tempUser) || string.IsNullOrWhiteSpace(tempPass))
+            {
+                blankWarning formError = new blankWarning();
+                formError.ShowDialog();
+            }
+            else
+            {
+                newLogs.Add(new LoginClass(tempUser, tempPass));
+                this.Close();
+            }
+        }
+
+        private void passLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

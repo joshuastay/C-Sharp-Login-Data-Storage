@@ -58,6 +58,18 @@
     <Compile Include="appLogin.Designer.cs">
       <DependentUpon>appLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="blankWarning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="blankWarning.Designer.cs">
+      <DependentUpon>blankWarning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="incorrectWarning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="incorrectWarning.Designer.cs">
+      <DependentUpon>incorrectWarning.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginClass.cs" />
     <Compile Include="BinarySerialization.cs" />
     <Compile Include="editEntry.cs">
@@ -87,8 +99,14 @@
     <EmbeddedResource Include="appLogin.resx">
       <DependentUpon>appLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="blankWarning.resx">
+      <DependentUpon>blankWarning.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="editEntry.resx">
       <DependentUpon>editEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="incorrectWarning.resx">
+      <DependentUpon>incorrectWarning.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loginCreation.resx">
       <DependentUpon>loginCreation.cs</DependentUpon>

@@ -51,35 +51,41 @@ namespace Login_Data_Storage
             this.loginSelection.Controls.Add(this.comboBox1);
             this.loginSelection.Dock = System.Windows.Forms.DockStyle.Fill;
             this.loginSelection.Location = new System.Drawing.Point(0, 0);
+            this.loginSelection.Margin = new System.Windows.Forms.Padding(2);
             this.loginSelection.Name = "loginSelection";
-            this.loginSelection.Size = new System.Drawing.Size(669, 603);
+            this.loginSelection.Size = new System.Drawing.Size(502, 490);
             this.loginSelection.TabIndex = 0;
             // 
             // editButton
             // 
-            this.editButton.Location = new System.Drawing.Point(366, 483);
+            this.editButton.Location = new System.Drawing.Point(274, 392);
+            this.editButton.Margin = new System.Windows.Forms.Padding(2);
             this.editButton.Name = "editButton";
-            this.editButton.Size = new System.Drawing.Size(111, 30);
+            this.editButton.Size = new System.Drawing.Size(83, 24);
             this.editButton.TabIndex = 6;
             this.editButton.Text = "Edit";
             this.editButton.UseVisualStyleBackColor = true;
+            this.editButton.Click += new System.EventHandler(this.editButton_Click);
             // 
             // createNewButton
             // 
-            this.createNewButton.Location = new System.Drawing.Point(173, 483);
+            this.createNewButton.Location = new System.Drawing.Point(130, 392);
+            this.createNewButton.Margin = new System.Windows.Forms.Padding(2);
             this.createNewButton.Name = "createNewButton";
-            this.createNewButton.Size = new System.Drawing.Size(111, 30);
+            this.createNewButton.Size = new System.Drawing.Size(83, 24);
             this.createNewButton.TabIndex = 5;
             this.createNewButton.Text = "Create New";
             this.createNewButton.UseVisualStyleBackColor = true;
+            this.createNewButton.Click += new System.EventHandler(this.createNewButton_Click);
             // 
             // passDisplayLabel
             // 
             this.passDisplayLabel.AutoSize = true;
             this.passDisplayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passDisplayLabel.Location = new System.Drawing.Point(413, 298);
+            this.passDisplayLabel.Location = new System.Drawing.Point(310, 242);
+            this.passDisplayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.passDisplayLabel.Name = "passDisplayLabel";
-            this.passDisplayLabel.Size = new System.Drawing.Size(64, 25);
+            this.passDisplayLabel.Size = new System.Drawing.Size(51, 20);
             this.passDisplayLabel.TabIndex = 4;
             this.passDisplayLabel.Text = "label2";
             // 
@@ -87,9 +93,10 @@ namespace Login_Data_Storage
             // 
             this.passLabelDisplay.AutoSize = true;
             this.passLabelDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passLabelDisplay.Location = new System.Drawing.Point(168, 298);
+            this.passLabelDisplay.Location = new System.Drawing.Point(126, 242);
+            this.passLabelDisplay.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.passLabelDisplay.Name = "passLabelDisplay";
-            this.passLabelDisplay.Size = new System.Drawing.Size(113, 25);
+            this.passLabelDisplay.Size = new System.Drawing.Size(91, 20);
             this.passLabelDisplay.TabIndex = 3;
             this.passLabelDisplay.Text = "Password:";
             // 
@@ -97,9 +104,10 @@ namespace Login_Data_Storage
             // 
             this.userDisplayLabel.AutoSize = true;
             this.userDisplayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userDisplayLabel.Location = new System.Drawing.Point(413, 211);
+            this.userDisplayLabel.Location = new System.Drawing.Point(310, 171);
+            this.userDisplayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.userDisplayLabel.Name = "userDisplayLabel";
-            this.userDisplayLabel.Size = new System.Drawing.Size(64, 25);
+            this.userDisplayLabel.Size = new System.Drawing.Size(51, 20);
             this.userDisplayLabel.TabIndex = 2;
             this.userDisplayLabel.Text = "label2";
             this.userDisplayLabel.Click += new System.EventHandler(this.userDisplayLabel_Click);
@@ -108,9 +116,10 @@ namespace Login_Data_Storage
             // 
             this.userLabelDisplay.AutoSize = true;
             this.userLabelDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userLabelDisplay.Location = new System.Drawing.Point(168, 211);
+            this.userLabelDisplay.Location = new System.Drawing.Point(126, 171);
+            this.userLabelDisplay.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.userLabelDisplay.Name = "userLabelDisplay";
-            this.userLabelDisplay.Size = new System.Drawing.Size(117, 25);
+            this.userLabelDisplay.Size = new System.Drawing.Size(96, 20);
             this.userLabelDisplay.TabIndex = 1;
             this.userLabelDisplay.Text = "Username:";
             this.userLabelDisplay.Click += new System.EventHandler(this.userLabelDisplay_Click);
@@ -118,18 +127,20 @@ namespace Login_Data_Storage
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(173, 123);
+            this.comboBox1.Location = new System.Drawing.Point(130, 100);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(304, 24);
+            this.comboBox1.Size = new System.Drawing.Size(229, 21);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // loginDataStorage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(669, 603);
+            this.ClientSize = new System.Drawing.Size(502, 490);
             this.Controls.Add(this.loginSelection);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "loginDataStorage";
             this.Text = "Login Data Storage";
             this.loginSelection.ResumeLayout(false);
