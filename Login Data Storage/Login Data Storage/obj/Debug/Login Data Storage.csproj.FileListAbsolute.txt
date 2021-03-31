@@ -1,0 +1,14 @@
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\bin\Debug\Login Data Storage.exe.config
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\bin\Debug\Login Data Storage.exe
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\bin\Debug\Login Data Storage.pdb
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login Data Storage.csprojAssemblyReference.cache
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login_Data_Storage.addNew.resources
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login_Data_Storage.editEntry.resources
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login_Data_Storage.loginCreation.resources
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login_Data_Storage.loginDataStorage.resources
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login_Data_Storage.Properties.Resources.resources
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login Data Storage.csproj.GenerateResource.cache
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login Data Storage.csproj.CoreCompileInputs.cache
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login Data Storage.exe
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login Data Storage.pdb
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login_Data_Storage.appLogin.resources

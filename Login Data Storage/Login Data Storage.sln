@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login Data Storage", "Login Data Storage\Login Data Storage.csproj", "{7EF4FA5B-BEC3-490A-9A13-6DD42F8F03BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EF4FA5B-BEC3-490A-9A13-6DD42F8F03BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF4FA5B-BEC3-490A-9A13-6DD42F8F03BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF4FA5B-BEC3-490A-9A13-6DD42F8F03BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF4FA5B-BEC3-490A-9A13-6DD42F8F03BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94C3616D-50B7-46ED-8C5E-C0920FDADDCC}
+	EndGlobalSection
+EndGlobal
