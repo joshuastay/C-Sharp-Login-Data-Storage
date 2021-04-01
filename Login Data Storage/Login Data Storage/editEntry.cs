@@ -56,5 +56,10 @@ namespace Login_Data_Storage
                 this.Close();
             }
         }
+
+        private void tableLayoutPanel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

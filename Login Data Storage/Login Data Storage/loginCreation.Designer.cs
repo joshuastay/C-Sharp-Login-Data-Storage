@@ -48,10 +48,10 @@ namespace Login_Data_Storage
             this.titleLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.titleLabel.AutoSize = true;
             this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.titleLabel.Location = new System.Drawing.Point(19, 20);
+            this.titleLabel.Location = new System.Drawing.Point(32, 25);
             this.titleLabel.Margin = new System.Windows.Forms.Padding(0);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(296, 24);
+            this.titleLabel.Size = new System.Drawing.Size(380, 29);
             this.titleLabel.TabIndex = 5;
             this.titleLabel.Text = "Create a Username and Password";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -62,10 +62,9 @@ namespace Login_Data_Storage
             this.passLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.passLabel.AutoSize = true;
             this.passLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passLabel.Location = new System.Drawing.Point(64, 23);
-            this.passLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.passLabel.Location = new System.Drawing.Point(89, 27);
             this.passLabel.Name = "passLabel";
-            this.passLabel.Size = new System.Drawing.Size(65, 13);
+            this.passLabel.Size = new System.Drawing.Size(82, 17);
             this.passLabel.TabIndex = 4;
             this.passLabel.Text = "Password:";
             this.passLabel.Click += new System.EventHandler(this.passLabel_Click);
@@ -75,39 +74,38 @@ namespace Login_Data_Storage
             this.userLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.userLabel.AutoSize = true;
             this.userLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userLabel.Location = new System.Drawing.Point(62, 23);
-            this.userLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.userLabel.Location = new System.Drawing.Point(85, 27);
             this.userLabel.Name = "userLabel";
-            this.userLabel.Size = new System.Drawing.Size(67, 13);
+            this.userLabel.Size = new System.Drawing.Size(86, 17);
             this.userLabel.TabIndex = 3;
             this.userLabel.Text = "Username:";
             // 
             // passBox
             // 
             this.passBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.passBox.Location = new System.Drawing.Point(133, 19);
-            this.passBox.Margin = new System.Windows.Forms.Padding(2);
+            this.passBox.Location = new System.Drawing.Point(177, 25);
+            this.passBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.passBox.Name = "passBox";
-            this.passBox.Size = new System.Drawing.Size(133, 20);
+            this.passBox.Size = new System.Drawing.Size(176, 22);
             this.passBox.TabIndex = 2;
             // 
             // userBox
             // 
             this.userBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.userBox.Location = new System.Drawing.Point(133, 19);
-            this.userBox.Margin = new System.Windows.Forms.Padding(2);
+            this.userBox.Location = new System.Drawing.Point(177, 25);
+            this.userBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.userBox.Name = "userBox";
-            this.userBox.Size = new System.Drawing.Size(133, 20);
+            this.userBox.Size = new System.Drawing.Size(176, 22);
             this.userBox.TabIndex = 1;
             // 
             // createUser
             // 
             this.createUser.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.createUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.createUser.Location = new System.Drawing.Point(124, 214);
-            this.createUser.Margin = new System.Windows.Forms.Padding(2);
+            this.createUser.Location = new System.Drawing.Point(165, 263);
+            this.createUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.createUser.Name = "createUser";
-            this.createUser.Size = new System.Drawing.Size(86, 28);
+            this.createUser.Size = new System.Drawing.Size(115, 34);
             this.createUser.TabIndex = 0;
             this.createUser.Text = "Create User";
             this.createUser.UseVisualStyleBackColor = true;
@@ -123,13 +121,14 @@ namespace Login_Data_Storage
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(334, 261);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(445, 321);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // tableLayoutPanel2
@@ -140,11 +139,12 @@ namespace Login_Data_Storage
             this.tableLayoutPanel2.Controls.Add(this.userBox, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.userLabel, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 68);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(4, 84);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(328, 59);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(437, 72);
             this.tableLayoutPanel2.TabIndex = 6;
             // 
             // tableLayoutPanel3
@@ -155,22 +155,24 @@ namespace Login_Data_Storage
             this.tableLayoutPanel3.Controls.Add(this.passBox, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.passLabel, 0, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 133);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 164);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(328, 59);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(437, 72);
             this.tableLayoutPanel3.TabIndex = 7;
             // 
             // loginCreation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 261);
+            this.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.ClientSize = new System.Drawing.Size(445, 321);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Location = new System.Drawing.Point(500, 500);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "loginCreation";

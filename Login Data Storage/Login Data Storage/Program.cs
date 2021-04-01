@@ -43,8 +43,13 @@ namespace Login_Data_Storage
             // after successful login the main app is now loaded
             if (appLogin.isLoggedIn)
             {
+                if (Directory.GetFiles(AppDomain.CurrentDomain.BaseDirectory).Contains(AppDomain.CurrentDomain.BaseDirectory + "applogdat.bin"))
+                {
+                    logincreds = BinarySerialization.ReadFromBinaryFile<List<LoginClass>>(AppDomain.CurrentDomain.BaseDirectory + "applogdat.bin");
+                }
                 var mainApp = new loginDataStorage(logincreds);
                 mainApp.ShowDialog();
+                BinarySerialization.WriteToBinaryFile<List<LoginClass>>(AppDomain.CurrentDomain.BaseDirectory + "applogdat.bin", logincreds);
             }
         }
     }

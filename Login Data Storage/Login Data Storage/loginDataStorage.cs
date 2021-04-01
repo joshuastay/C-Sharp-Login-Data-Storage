@@ -61,5 +61,15 @@ namespace Login_Data_Storage
             editForm.ShowDialog();
             comboRefresh();
         }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void passLabelDisplay_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

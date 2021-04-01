@@ -28,3 +28,5 @@ C:\Users\jandb\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Logi
 C:\Users\jandb\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login_Data_Storage.blankWarning.resources
 C:\Users\jandb\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login_Data_Storage.incorrectWarning.resources
 C:\Users\jandb\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login Data Storage.csprojAssemblyReference.cache
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login_Data_Storage.blankWarning.resources
+C:\Users\Craptop\source\repos\Login Data Storage\Login Data Storage\obj\Debug\Login_Data_Storage.incorrectWarning.resources
